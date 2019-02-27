@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Pokemon Quiz</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="main">
+	<h1>Pokemon Quiz</h1>
+	<form>
+		<p>Which of these types are super effective on Rock types?</p>
+				<input type= "radio" name="pokemon1" value= "0">
+				<label>Normal</label><br>
+				<input type= "radio" name="pokemon1" value= "1">
+				<label>Water</label><br>
+				<input type= "radio" name="pokemon1" value= "0">
+				<label>Fire</label><br>
+				<input type= "radio" name="pokemon1" value= "0">
+				<label>Electric</label><br>
+		<p>Which of these is a name of a Pokemon?</p>
+				<input type= "radio" name="pokemon2" value= "1">
+				<label>Alomomola</label><br>
+				<input type= "radio" name="pokemon2" value= "0">
+				<label>Archoot</label><br>
+				<input type= "radio" name="pokemon2" value= "0">
+				<label>Firagon</label><br>
+				<input type= "radio" name="pokemon2" value= "0">
+				<label>Agumon</label><br>
+		<img src="img/voltorb.png" height="250" width="250">
+		<p>Whose that pokemon?</p>
+				<input type= "radio" name="pokemon3" value= "1">
+				<label>Voltorb</label><br>
+				<input type= "radio" name="pokemon3" value= "1">
+				<label>Electrode</label><br>
+				<input type= "radio" name="pokemon3" value= "0">
+				<label>Jigglypuff as seen from above</label><br>
+				<input type= "radio" name="pokemon3" value= "0">
+				<label>A pokeball</label><br>
+		<p>What is the canonical name of the protagonist of Pokemon Red/Blue?</p>
+				<input type= "radio" name="pokemon4" value= "0">
+				<label>Ash</label><br>
+				<input type= "radio" name="pokemon4" value= "0">
+				<label>Blue</label><br>
+				<input type= "radio" name="pokemon4" value= "0">
+				<label>Satoshi</label><br>
+				<input type= "radio" name="pokemon4" value= "1">
+				<label>Red</label><br>
+		<p>Which Pokemon can learn the move Kinesis</p>
+				<input type= "radio" name="pokemon5" value= "0">
+				<label>Mewtwo</label><br>
+				<input type= "radio" name="pokemon5" value= "0">
+				<label>Espeon</label><br>
+				<input type= "radio" name="pokemon5" value= "0">
+				<label>Gardevoir</label><br>
+				<input type= "radio" name="pokemon5" value= "1">
+				<label>Alakazam</label><br>
+		<p>What type is Sudowoodo?</p>
+				<input type= "radio" name="pokemon6" value= "1">
+				<label>Rock</label><br>
+				<input type= "radio" name="pokemon6" value= "0">
+				<label>Grass</label><br>
+				<input type= "radio" name="pokemon6" value= "0">
+				<label>Rock/Grass</label><br>
+				<input type= "radio" name="pokemon6" value= "0">
+				<label>Normal</label><br>
+		<p>What Pokemon does Remoraid evolves into?</p>
+				<input type= "radio" name="pokemon7" value= "0">
+				<label>Seaking</label><br>
+				<input type= "radio" name="pokemon7" value= "0">
+				<label>Mantine</label><br>
+				<input type= "radio" name="pokemon7" value= "0">
+				<label>Lumineon</label><br>
+				<input type= "radio" name="pokemon7" value= "1">
+				<label>Octillery</label><br>
+		<p>How does Eevee evolve into Umbreon</p>
+				<input type= "radio" name="pokemon8" value= "0">
+				<label>Using the dusk stone</label><br>
+				<input type= "radio" name="pokemon8" value= "1">
+				<label>level up with max friendship during the night</label><br>
+				<input type= "radio" name="pokemon8" value= "0">
+				<label>level up with max friendship during the day</label><br>
+				<input type= "radio" name="pokemon8" value= "0">
+				<label>level up with high affection while knowing a fairy type move</label><br>
+		<p>Which of these Pokemon is immune to Ground types attacks?</p>
+				<input type= "radio" name="pokemon9" value= "0">
+				<label>Flareon</label><br>
+				<input type= "radio" name="pokemon9" value= "0">
+				<label>Gengar</label><br>
+				<input type= "radio" name="pokemon9" value= "1">
+				<label>Eelektross</label><br>
+				<input type= "radio" name="pokemon9" value= "0">
+				<label>Jolteon</label><br>
+		<p>Which of these Pokemon are 4x weak to Fire?</p>
+				<input type= "radio" name="pokemon10" value= "0">
+				<label>Bulbasaur</label><br>
+				<input type= "radio" name="pokemon10" value= "1">
+				<label>Forretress</label><br>
+				<input type= "radio" name="pokemon10" value= "0">
+				<label>Aegislash</label><br>
+				<input type= "radio" name="pokemon10" value= "0">
+				<label>Graveler</label><br>
+
+		<p><input type= "button" onClick="submitPokemon()" value="Submit"></p>
+				<p><span class= "pokemon-result"></span></p>
+
+			</form>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>

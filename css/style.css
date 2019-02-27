@@ -1,0 +1,38 @@
+body {
+	background: red;
+	font-family: 'helvetica', sans-serif;
+	padding: 50px;
+	width: 90%
+	margin: auto;
+}
+h1{
+	color: yellow;
+	text-shadow: 
+		2px 0 0 blue, 
+		-2px 0 0 blue, 
+		0 2px 0 blue, 
+		0 -2px 0 blue, 
+		1px 1px blue, 
+		-1px -1px 0 blue, 
+		1px -1px 0 blue, 
+		-1px 1px 0 blue;
+	}
+span{
+	font-size: 25px;
+	color: yellow;
+	text-shadow: 
+		2px 0 0 blue, 
+		-2px 0 0 blue, 
+		0 2px 0 blue, 
+		0 -2px 0 blue, 
+		1px 1px blue, 
+		-1px -1px 0 blue, 
+		1px -1px 0 blue, 
+		-1px 1px 0 blue;
+	font-weight: bold;
+}
+.main {
+	background: white;
+	padding: 25px;
+	margin: auto;
+}
